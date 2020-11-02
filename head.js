@@ -1,13 +1,11 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅ Assertion Passed: ${actual} === ${expected}` );
-  } else {
-    console.assert(false, `🔴 ${actual} !== ${expected}`);
-  }
-};
-
-//assertEqual("Lighthouse Labs", "Bootcamp");
-//assertEqual(1, 1);
+// const assertEqual = require('./assertEqual');
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅ Assertion Passed: ${actual} === ${expected}` );
+//   } else {
+//     console.assert(false, `🔴 ${actual} !== ${expected}`);
+//   }
+// };
 
 const head = function(array) {
   let first = "";
@@ -18,5 +16,6 @@ const head = function(array) {
     }
   }
 }
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+// assertEqual(head([5,6,7]), 5);
+// assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = head;
