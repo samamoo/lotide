@@ -1,0 +1,26 @@
+{
+  "name": "@samamoo/lotide",
+  "version": "1.0.0",
+  "description": "student clone of lodash",
+  "main": "assertArrayEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samamoo/lotide.git"
+  },
+  "author": {"name": "Samantha Fok"},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samamoo/lotide/issues"
+  },
+  "homepage": "https://github.com/samamoo/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
