@@ -16,22 +16,22 @@ const map = require('./map');
 const takeUntil = require('./takeUntil');
 
 module.exports = {
-  assertArrayEqual: assertArrayEqual,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  letterPosition: letterPosition,
-  map: map,
-  takeUntil: takeUntil,
-
-
+  assertArrayEqual,
+  assertEqual,
+  assertObjectsEqual,
+  head,
+  tail,
+  middle,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  letterPosition,
+  map,
+  takeUntil,
 };
+// const _ = require('./index')
+// _
